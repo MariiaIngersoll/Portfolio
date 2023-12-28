@@ -44,8 +44,9 @@ nav {
 }
 
 a {
-    color: rgb(20, 102, 56);
+    color: rgb(8 100 49);
     text-decoration: none;
+    font-size: medium;
     text-decoration-color: #36a639;
 }
 
@@ -54,4 +55,32 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-size: 2rem;
+
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* STYLE FOR HAMBURGER NAV MENU */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
