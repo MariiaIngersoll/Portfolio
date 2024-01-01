@@ -40,7 +40,7 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
 
 a {
@@ -151,10 +151,10 @@ a:hover {
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 0 10rem;
+    margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
+  }
 
 .section-container {
     display: flex;
@@ -169,14 +169,15 @@ section {
     height: 80vh;
 }
 
+.profile-pic {
+    border-radius: 30%;
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border: 10px; 
-    border-radius: 30%; 
-    overflow: hidden; 
 }
 
 .section__text {
@@ -253,4 +254,53 @@ section {
 
 .btn-color-2:hover {
     border: rgb(255, 255, 255);
+}
+
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+}
+  
+.about-containers {
+gap: 2rem;
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+
+.about-details-container {
+justify-content: center;
+flex-direction: column;
+padding: 30px;
+
+}
+
+.about-containers,
+.about-details-container {
+display: flex;
+}
+
+.about-pic {
+border-radius: 50rem;
+}
+
+.arrow {
+position: absolute;
+right: -5rem;
+bottom: 2.5rem;
+}
+
+.details-container {
+padding: 1.5rem;
+flex: 1;
+background: white;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+text-align: center;
+}
+
+.section-container {
+gap: 4rem;
+height: 80%;
 }
