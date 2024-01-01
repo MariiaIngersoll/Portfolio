@@ -290,8 +290,8 @@ padding: 1.5rem;
 flex: 1;
 background: white;
 border-radius: 2rem;
-border: rgb(53, 53, 53) 0.1rem solid;
-border-color: rgb(163, 163, 163);
+border:  rgb(9 120 106) 0.2rem solid;
+border-color: rgb(9 120 106);
 text-align: center;
 }
 
