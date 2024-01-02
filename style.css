@@ -299,3 +299,13 @@ text-align: center;
 gap: 4rem;
 height: 80%;
 }
+
+/* Projects section */
+
+.project-logo {
+    width: fit-content;
+    height: fit-content;
+    object-fit: contain; 
+    border-radius: 8px; 
+    margin: 0 auto;
+}
