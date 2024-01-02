@@ -261,6 +261,7 @@ section {
 gap: 2rem;
 margin-bottom: 2rem;
 margin-top: 2rem;
+flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -278,10 +279,10 @@ border-radius: 50rem;
 }
 
 .arrow {
-position: absolute;
-right: -5rem;
-bottom: 2.5rem;
-}
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
 
 .details-container {
 padding: 1.5rem;
@@ -300,6 +301,9 @@ height: 80%;
 
 /* Projects section */
 
+#projects {
+    position: relative;
+}
 .project-logo {
     width: 150px;
     height: 150px;
@@ -311,6 +315,7 @@ height: 80%;
 /* Contact */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
