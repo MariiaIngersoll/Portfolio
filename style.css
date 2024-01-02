@@ -290,8 +290,8 @@ padding: 1.5rem;
 flex: 1;
 background: white;
 border-radius: 2rem;
-border:  rgb(9 120 106) 0.2rem solid;
-border-color: rgb(9 120 106);
+border: rgb(225 225 225) 0.2rem solid;
+border-color: rgb(225 225 225);
 text-align: center;
 }
 
@@ -303,8 +303,8 @@ height: 80%;
 /* Projects section */
 
 .project-logo {
-    width: fit-content;
-    height: fit-content;
+    width: 200px;
+    height: 200px;
     object-fit: contain; 
     border-radius: 8px; 
     margin: 0 auto;
