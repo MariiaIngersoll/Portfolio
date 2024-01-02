@@ -266,8 +266,6 @@ margin-top: 2rem;
 .about-details-container {
 justify-content: center;
 flex-direction: column;
-padding: 30px;
-
 }
 
 .about-containers,
@@ -303,9 +301,47 @@ height: 80%;
 /* Projects section */
 
 .project-logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: contain; 
     border-radius: 8px; 
     margin: 0 auto;
+}
+
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.linkedin-icon {
+    height: 2.5rem;
 }
